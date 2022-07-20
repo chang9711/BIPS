@@ -27,7 +27,7 @@ conda activate BIPS
 ```
 
 ## Data Preparation
-We use Structured 3D RGB panorama, layout depth panorama (D_ini), final depth panorama (D) for training and testing.\
+We use Structured 3D RGB panorama, layout depth panorama (D_ini), final depth panorama (D) for training and testing.
 Residual depth is automatically calculated by subtracting layout depth panorama from final depth panorama in the dataloader.
 
 ```bash
@@ -89,4 +89,4 @@ python FID.py
 FID.py takes two data distributions inside the code and outputs the FAED score.
 ### 
 ## TBD
-The entire dataset and pretrained weights. 
+pretrained weights. 
