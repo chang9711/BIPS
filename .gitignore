@@ -1,0 +1,7 @@
+New_BIPS
+*.zip
+*.tar
+*.npz
+*.pth
+KCVS/TA_session/point_clouds
+**tmp**
